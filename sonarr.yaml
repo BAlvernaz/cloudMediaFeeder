@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: sonarr
+spec:
+  containers:
+    - name: sonarr
+      image: linuxserver/sonarr
+      ports:
+        - containerPort: 8989
